@@ -2,7 +2,6 @@ const chai = require('chai');
 const expect = chai.expect;
 const mongoose = require('mongoose');
 const ValidationError = mongoose.Error.ValidationError;
-const ValidatorError = mongoose.Error.ValidatorError;
 
 var Item = require('../models/Item.model');
 
